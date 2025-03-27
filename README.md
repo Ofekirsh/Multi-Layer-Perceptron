@@ -2,7 +2,7 @@
 
 This project implements and evaluates multilayer perceptrons (MLPs) from scratch using Python and NumPy. It includes code for training on toy datasets such as XOR, as well as comparison with a log-linear model.
 
-<img src="./images/neuralnet_mlp_1.png" alt="image text>
+<img src="./images/neuralnet_mlp_1.png" alt="Image of MLP">
 
 ## Setup
 
