@@ -64,8 +64,8 @@ if __name__ == '__main__':
     # train_data = [(l, text_to_unigrams(t)) for l, t in read_data("train")]
     # dev_data = [(l, text_to_unigrams(t)) for l, t in read_data("dev")]
 
-    train_data = [(l, text_to_bigrams(t)) for l, t in read_data("train")]
-    dev_data = [(l, text_to_bigrams(t)) for l, t in read_data("dev")]
+    train_data = [(l, text_to_bigrams(t)) for l, t in read_data("../data/train")]
+    dev_data = [(l, text_to_bigrams(t)) for l, t in read_data("../data/dev")]
 
     fc = Counter()
     for l, feats in train_data:
