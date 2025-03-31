@@ -53,7 +53,6 @@ python grad_check.py
 
 Model predictions are saved in `test.pred`. You can evaluate using provided scripts or compare with ground truth labels in the `test` folder.
 
-##️ Notes
+## Notes
 
-- `answers.txt` may include theoretical analysis, such as proof of MLP's ability to solve XOR.
 - All models are implemented from scratch using NumPy, with no deep learning frameworks used.
